@@ -1,7 +1,7 @@
-*{
+body{
   margin:10px 10px;
   box-sizing: border-box;
-  background-color: #121d31;
+  background-color: #9b9b9b;
   font-family: abril;
 }
 @font-face {
@@ -11,18 +11,23 @@
 
 /*------------------------------------------------Header-------------------------------------------*/
 
-.header{
+.header {
+  height: 45vh;
   margin-bottom: 0;
-  height:60vh;
-  background-image: linear-gradient(to right bottom,rgba(18, 29, 49, 0.8),rgba(31, 44, 66, 0.8)), url(/Pics/photo1.jpg);
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(18, 29, 49, 0.8),
+    rgba(31, 44, 66, 0.8)
+  ), url('/Pictures/photo-1742943892627-f7e4ddf91224.avif');
   background-size: cover;
-  background-position: top;
-  position: relative;
+  background-position: center;
+  background-attachment: fixed;  /* Fixálja a háttérképet */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .heading-primary {
   background-color: transparent;
   color:#D9C7BA;
@@ -172,7 +177,7 @@
 }
 
 .nav-icons a:hover svg {
-  transform: scale(1.2);
+  transform: scale(1.5);
   fill: #ffffff; 
 }
 
@@ -187,6 +192,7 @@ footer{
   color: #D9C7BA;
 }
 footer p{
+  padding-top:10px;
   background-color: transparent;
 }
 
