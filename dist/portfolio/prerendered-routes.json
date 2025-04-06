@@ -1,8 +1,8 @@
 {
   "routes": {
-    "/Program%20Files/Git/Portfolio": {},
-    "/Program%20Files/Git/Portfolio/contact": {},
-    "/Program%20Files/Git/Portfolio/hero-site": {},
-    "/Program%20Files/Git/Portfolio/portfolio": {}
+    "/Program%20Files/Git": {},
+    "/Program%20Files/Git/contact": {},
+    "/Program%20Files/Git/hero-site": {},
+    "/Program%20Files/Git/portfolio": {}
   }
 }

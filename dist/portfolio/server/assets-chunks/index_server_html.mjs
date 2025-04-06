@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>Portfolio</title>
-  <base href="C:/Program Files/Git/Portfolio/">
+  <base href="C:/Program Files/Git/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-DZ6UBGXD.css"></head>
