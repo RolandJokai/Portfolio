@@ -53,7 +53,8 @@ body {
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 1.75rem;
-  animation: moveInRight 1s ease-out;
+  animation: moveInRight 1s ease-out forwards;
+  transform: translateZ(0);
 }
 
 .dots,
@@ -62,7 +63,9 @@ body {
 }
 
 .dots span {
+  display: inline-block;
   animation: bounce 0.6s infinite alternate;
+  transform: translateZ(0); /* Hardware acceleration */
 }
 
 .dots span:nth-child(1) {
@@ -222,14 +225,12 @@ footer p {
     opacity: 0;
     transform: translateX(10rem);
   }
-
   80% {
     transform: translateX(-1rem);
   }
-
   100% {
     opacity: 1;
-    transform: translate(0);
+    transform: translateX(0) translateZ(0); /* Explicit nullázás */
   }
 }
 
@@ -251,12 +252,11 @@ footer p {
 
 @keyframes bounce {
   0% {
-    transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1) translateZ(0);
     opacity: 0.7;
   }
-
   100% {
-    transform: translateY(-10px) scale(1.2);
+    transform: translateY(-10px) scale(1.2) translateZ(0);
     opacity: 1;
   }
 }
