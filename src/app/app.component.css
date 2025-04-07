@@ -14,15 +14,17 @@ body {
 }
 
 /* ================= HEADER ================= */
-.header {
-  height: 45vh;
-  margin-bottom: 0;
+.heading {
   background:
-    linear-gradient(to right bottom, rgba(18, 29, 49, 0.7), rgba(31, 44, 66, 0.7)),
-    url('/Pictures/photo-1742943892627-f7e4ddf91224.avif');
+  linear-gradient(to right bottom, rgba(18, 29, 49, 0.7), rgba(31, 44, 66, 0.7)),
+  url('/Pictures/photo-1742943892627-f7e4ddf91224.avif');
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
+}
+.header {
+  height: 45vh;
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +87,6 @@ body {
   padding: 0;
   margin-top: 0;
   height: 4rem;
-  background-color: #39303b;
   display: flex;
   justify-content: space-between;
   align-items: center;
