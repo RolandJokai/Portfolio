@@ -204,7 +204,7 @@ footer p {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-/* ================= ANIMATIONS ================= */
+/* ================= Animations ================= */
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -231,7 +231,7 @@ footer p {
   }
   100% {
     opacity: 1;
-    transform: translateX(0) translateZ(0); /* Explicit nullázás */
+    transform: translateX(0) translateZ(0); 
   }
 }
 
@@ -262,7 +262,7 @@ footer p {
   }
 }
 
-/* ================= RESPONSIVE STYLES ================= */
+/* ================= Respinsive Styles ================= */
 @media only screen and (max-width: 600px) {
   .header {
     background-size: cover;
