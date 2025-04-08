@@ -1,8 +1,12 @@
 :host {
   display: block;
-  min-height: 60vh;
-  background: rgb(0,0,0);
-background: linear-gradient(145deg, rgba(0,0,0,1) 10%, rgba(57,48,59,1) 100%);
+  min-height: 75vh;
+  background:
+  linear-gradient(to right bottom, rgba(18, 29, 49, 0.7), rgba(31, 44, 66, 0.9)),
+  url('/Pictures/errorBg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   padding: 2rem;
   color: #D9C7BA;
 }

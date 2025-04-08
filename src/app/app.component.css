@@ -12,7 +12,7 @@
 /* ================= HEADER ================= */
 .heading {
   background:
-  linear-gradient(to right bottom, rgba(18, 29, 49, 0.7), rgba(31, 44, 66, 0.5)),
+  linear-gradient(to right bottom, rgba(18, 29, 49, 0.7), rgba(31, 44, 66, 0.6)),
   url('/Pictures/headerBg.avif');
   background-size: cover;
   background-position: center;
