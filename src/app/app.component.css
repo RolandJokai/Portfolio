@@ -4,10 +4,6 @@
   font-family: playfair;
 }
 
-body {
-  background-color: #9b9b9b;
-}
-
 @font-face {
   font-family: playfair;
   src: url('/Fonts/Playfair/PlayfairDisplay-VariableFont_wght.ttf');
@@ -17,14 +13,14 @@ body {
 .heading {
   background:
   linear-gradient(to right bottom, rgba(18, 29, 49, 0.7), rgba(31, 44, 66, 0.5)),
-  url('/Pictures/photo-1742943892627-f7e4ddf91224.avif');
+  url('/Pictures/headerBg.avif');
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
   
 }
 .header {
-  height: 45vh;
+  height: 42vh;
   margin-bottom: 0;
   display: flex;
   justify-content: center;
@@ -166,13 +162,12 @@ body {
 /* ================= FOOTER ================= */
 footer {
   padding: 0;
-  background: url('/Pictures/Skyline3.png');
-  filter: blur(4px);  /* Blur a teljes footer-re */
+  background-color: transparent;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  height: 150px;
+  height: 4rem;
   text-align: center;
   color: #D9C7BA;
   text-shadow: 5px 5px 10px black;
@@ -309,7 +304,7 @@ footer p {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgb(51, 51, 51);
+    background-color: rgba(49, 57, 85, 0.9);
     flex-direction: column;
     padding: 1rem;
     z-index: 1000;

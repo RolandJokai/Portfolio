@@ -3,7 +3,7 @@
   min-height: 60vh;
   background:
   linear-gradient(to right bottom, rgba(18, 29, 49, 0.7), rgba(31, 44, 66, 0.9)),
-  url('/Pictures/dana.jpg');
+  url('/Pictures/portfolioBg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
