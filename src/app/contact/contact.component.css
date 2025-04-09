@@ -14,7 +14,7 @@
 .container-contact{
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
   text-align: center;
   background-color: rgba(49, 57, 85, 0.9);
   border-radius: 20px;
@@ -27,4 +27,11 @@ hr{
 .linkedin a{
   text-decoration: none;
   color:#D9C7BA;
+}
+
+@media only screen and (max-width:600px) {
+  .container-contact{
+    width: 90%;
+  }
+
 }
