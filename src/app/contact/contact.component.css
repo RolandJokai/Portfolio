@@ -10,3 +10,21 @@
   padding: 2rem;
   color: #D9C7BA;
 }
+
+.container-contact{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  background-color: #31365cd2;
+  border-radius: 20px;
+}
+
+hr{
+  margin-left: auto;
+  margin-right: auto;
+}
+.linkedin a{
+  text-decoration: none;
+  color:#D9C7BA;
+}
